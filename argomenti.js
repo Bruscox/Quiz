@@ -32,7 +32,7 @@ export const risposteAttualità = ["Maggiore frequenza di ondate di calore e sic
 // Domande di anime
 export const domandeAnime = [
     { testo: "Chi è il protagonista di Naruto?", opzioni: ["Naruto", "Sasuke", "Sakura", "Kakashi"] },
-{ testo: "Quale frutto del diavolo è stato mangiato da Monkey D. Luffy?", opzioni: ["Fire fruit", "Kilo kilo", "Phoneyx", "Gomu gomu"] },
+{ testo: "Quale frutto del diavolo è stato mangiato da Monkey D. Luffy?", opzioni: ["Fire fruit", "Kilo kilo", "Phoneyx", "A"] },
     { testo: "Chi è il creatore di Dragon Ball?", opzioni: ["Hayao Miyazaki", "Masashi Kishimoto", "Akira Toriyama", "Eiichiro Oda"] },
     { testo: "In Attack on Titan, cosa c'è oltre le mura che proteggono l'umanità?", opzioni: ["Un altro regno", "Un oceano e una nazione ostile", "Solo Titani", "Un paradiso nascosto"] },
     { testo: "Qual è il potere speciale che viene conferito a Light Yagami in Death Note?", opzioni: ["Controllare i sogni", "Leggere nel pensiero", "Uccidere scrivendo nomi su un quaderno", "Fermare il tempo"] },
@@ -43,7 +43,7 @@ export const domandeAnime = [
     { testo: "In Demon Slayer, qual è lo stile di respirazione usato da Tanjiro?", opzioni: ["Respirazione del tuono", "Respirazione della bestia", "Respirazione dell'acqua", "Respirazione della luna"] },
 ];
 
-export const risposteAnime = ["Naruto", "Gomu gomu", "Akira Toriyama", "Un oceano e una nazione ostile", "Uccidere scrivendo nomi su un quaderno",
+export const risposteAnime = ["Naruto", "A", "Akira Toriyama", "Un oceano e una nazione ostile", "Uccidere scrivendo nomi su un quaderno",
     "One For All", "Edward Elric", "Usagi Tsukino", "Giochi d'azzardo ad alto rischio", "Respirazione dell'acqua"];
 
 
