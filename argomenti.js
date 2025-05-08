@@ -31,7 +31,7 @@ export const risposteAttualità = ["Maggiore frequenza di ondate di calore e sic
     "Raggiungere la neutralità climatica entro il 2050", "Deterioramento a causa di tensioni commerciali e tecnologiche", "Gestione dei flussi migratori e integrazione dei migranti", "Provoca eventi estremi che danneggiano i raccolti", "Garantire trasparenza, protezione dati e lotta alla disinformazione"];
 // Domande di anime
 export const domandeAnime = [
-    { testo: "Chi è il protagonista di Naruto?", opzioni: ["Naruto", "Sasuke", "Sakura", "Kakashi"] },
+    { testo: "Chi è il protagonista di Narutooooo?", opzioni: ["Naruto", "Sasuke", "Sakura", "Kakashi"] },
 { testo: "Quale frutto del diavolo è stato mangiato da Monkey D. Luffy?", opzioni: ["Fire fruit", "Kilo kilo", "Phoneyx", "A"] },
     { testo: "Chi è il creatore di Dragon Ball?", opzioni: ["Hayao Miyazaki", "Masashi Kishimoto", "Akira Toriyama", "Eiichiro Oda"] },
     { testo: "In Attack on Titan, cosa c'è oltre le mura che proteggono l'umanità?", opzioni: ["Un altro regno", "Un oceano e una nazione ostile", "Solo Titani", "Un paradiso nascosto"] },
