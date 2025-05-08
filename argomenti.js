@@ -32,7 +32,7 @@ export const risposteAttualità = ["Maggiore frequenza di ondate di calore e sic
 // Domande di anime
 export const domandeAnime = [
     { testo: "Chi è il protagonista di Naruto?", opzioni: ["Naruto", "Sasuke", "Sakura", "Kakashi"] },
-    { testo: "Quale frutto del diavolo è stato mangiato da Monkey D. Luffy?", opzioni: ["Fire fruit", "Kilo kilo", "Phoneyx", "Gomu gomu"] },
+    { testo: "Quale frutto del diavolo è stato mangiato da Monkey D. Luffy?", opzioni: ["Fire fruit", "Kilo Kilo", "Phoneyx", "Gomu Gomu"] },
     { testo: "Chi è il creatore di Dragon Ball?", opzioni: ["Hayao Miyazaki", "Masashi Kishimoto", "Akira Toriyama", "Eiichiro Oda"] },
     { testo: "In Attack on Titan, cosa c'è oltre le mura che proteggono l'umanità?", opzioni: ["Un altro regno", "Un oceano e una nazione ostile", "Solo Titani", "Un paradiso nascosto"] },
     { testo: "Qual è il potere speciale che viene conferito a Light Yagami in Death Note?", opzioni: ["Controllare i sogni", "Leggere nel pensiero", "Uccidere scrivendo nomi su un quaderno", "Fermare il tempo"] },
@@ -69,14 +69,14 @@ export const domandeFilm = [
     { testo: "Chi ha diretto Titanic?", opzioni: ["Spielberg", "Cameron", "Nolan", "Tarantino"] },
     { testo: "Come si chiama il regno dove si svolge gran parte di Il Trono di Spade?", opzioni: ["Gondor", "Westeros", "Narnia", "Eldia"] },
     { testo: "Chi interpreta Tony Stark/Iron Man nell'Universo Marvel?", opzioni: ["Chris Evans", "Robert Downey Jr.", "Mark Ruffalo", "Tom Holland"] },
-    //{ testo: "Qual è il nome del professore nella serie La Casa di Carta?", opzioni: ["Sergio Marquina", "Pablo Escobar", "Miguel García", "Arturo Román"] },
-    //{ testo: "In Breaking Bad, che lavoro faceva Walter White prima di diventare un produttore di metanfetamina?", opzioni: ["Chimico in un laboratorio privato", "Professore di matematica", "Professore di chimica", "Farmacista"] },
-    //  { testo: "Qual è il nome del villaggio dove viveva Harry Potter da bambino?", opzioni: ["Privet Drive, Little Whinging", "Godric's Hollow", "Diagon Alley", "Hogsmeade"] },
-    //    { testo: "In Stranger Things, come si chiama la bambina con poteri psichici?", opzioni: ["Max", "Eleven", "Nancy", "Robin"] },
-    //{ testo: "Chi è il regista della trilogia originale de Il Signore degli Anelli?", opzioni: ["Steven Spielberg", "James Cameron", "Peter Jackson", "Christopher Nolan"] },
-    //  { testo: "Come si chiama il mondo virtuale in cui si svolge gran parte di Matrix?", opzioni: ["The Void", "The Grid", "The Simulation", "The Matrix"] },
-    //    { testo: "In Friends, quale personaggio dice spesso “We were on a break!”?", opzioni: ["Chandler", "Joey", "Ross", "Monica"] },
+    { testo: "Qual è il nome del professore nella serie La Casa di Carta?", opzioni: ["Sergio Marquina", "Pablo Escobar", "Miguel García", "Arturo Román"] },
+    { testo: "In Breaking Bad, che lavoro faceva Walter White prima di diventare un produttore di metanfetamina?", opzioni: ["Chimico in un laboratorio privato", "Professore di matematica", "Professore di chimica", "Farmacista"] },
+      { testo: "Qual è il nome del villaggio dove viveva Harry Potter da bambino?", opzioni: ["Privet Drive, Little Whinging", "Godric's Hollow", "Diagon Alley", "Hogsmeade"] },
+        { testo: "In Stranger Things, come si chiama la bambina con poteri psichici?", opzioni: ["Max", "Eleven", "Nancy", "Robin"] },
+    { testo: "Chi è il regista della trilogia originale de Il Signore degli Anelli?", opzioni: ["Steven Spielberg", "James Cameron", "Peter Jackson", "Christopher Nolan"] },
+      { testo: "Come si chiama il mondo virtuale in cui si svolge gran parte di Matrix?", opzioni: ["The Void", "The Grid", "The Simulation", "The Matrix"] },
+        { testo: "In Friends, quale personaggio dice spesso “We were on a break!”?", opzioni: ["Chandler", "Joey", "Ross", "Monica"] },
 ];
 
-export const risposteFilm = ["Cameron", "Westeros", "Robert Downey Jr."/*, "Sergio Marquina", "Professore di chimica",
-    "Privet Drive, Little Whinging", "Eleven", "Peter Jackson", "The Matrix", "Ross"*/];
+export const risposteFilm = ["Cameron", "Westeros", "Robert Downey Jr.", "Sergio Marquina", "Professore di chimica",
+    "Privet Drive, Little Whinging", "Eleven", "Peter Jackson", "The Matrix", "Ross"];
