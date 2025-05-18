@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina quiz</title>
+    <link rel="stylesheet" href="stile.css">
+
+</head>
+
+<body>
+    <h1 id="titolo" class="no-copy"></h1>
+    <div class="container-risultati">
+        <p id="statistiche" class="no-copy"></p>
+    </div>
+    <div class="container-domande">
+        
+        <h2 id="titoloDomanda" class="no-copy"></h2>
+        <h3 id="testoDomanda" class="no-copy"></h3>
+
+        <div id="opzioniContainer" class="box-radiobutton no-copy">
+            <!--Comprende la classe per i radio e la classe per il non copia-->
+            <!-- Le opzioni verranno inserite da JS -->
+        </div>
+        <div class="box-bottoni">
+            <button id="tornaIndietro" class="no-copy">&larr; Torna indietro</button>
+            <button id="prossimaDomanda" class="no-copy">Prossima domanda &rarr;</button>
+            <button id="invia" class="no-copy">Invia &rarr;</button>
+       <button id="tornaHome" class="no-copy">Home</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="domande.js"> </script>
+
+</body>
+
+</html>

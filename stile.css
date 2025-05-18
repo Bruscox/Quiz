@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+p:hover {
+    transform: scale(1.01);
+    /* Ingrandisce leggermente */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+}
+
+body {
+    background-image: url("sfondo\ ottico2400x1200.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+
+}
+
+.container-home,
+.container-risultati {
+
+    display: block;
+    /* Per mantenere i blocchi div in colonna */
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    width: 90%;
+    max-width: 1000px;
+}
+
+.container-home,
+.container-domande {
+
+    text-align: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    width: 90%;
+    max-width: 1000px;
+
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 1.4em;
+}
+
+.quiz-select {
+    margin: 20px 0;
+}
+
+label {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+select {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+select:hover {
+    border-color: #007bff;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.box-bottoni,
+.container-domande div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+
+.opzione {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.box-radiobutton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 30%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    .container-home,
+    .container-domande {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    button {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .box-radiobutton {
+        margin-left: 0%
+    }
+}
+
+
+
+.no-copy {
+    user-select: none;
+    /* Impedisce la selezione del testo */
+    -webkit-user-select: none;
+    /* Safari/Chrome */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Edge/IE */
+}
+
+.domandaCorretta {
+
+    background-color: lightgreen !important;
+    /* Colore di sfondo per far risaltare la risposta corretta */
+}
+
+.domandaSbagliata {
+
+    background-color: red !important;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    outline: none;
+}
+
+input[type="radio"]:checked {
+    background-color: grey;
+    transform: scale(1.2);
+    /* Aumenta leggermente la dimensione quando selezionato */
+}
