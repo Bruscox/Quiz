@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
 h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
-
 p {
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 1.2em;
@@ -19,14 +17,12 @@ p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-
 p:hover {
     transform: scale(1.01);
     /* Ingrandisce leggermente */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     background: linear-gradient(135deg, #0072ff, #00c6ff);
 }
-
 body {
     background-image: url("sfondo\ ottico2400x1200.jpg");
     background-size: cover;
@@ -40,14 +36,10 @@ body {
     align-items: center;
     min-height: 100vh;
     color: white;
-
 }
-
 .container-home,
 .container-risultati {
-
-    display: block;
-    /* Per mantenere i blocchi div in colonna */
+    display: block; /* Per mantenere i blocchi div in colonna */
     padding: 10px;
     margin-bottom: 10px;
     background: rgba(0, 0, 0, 0.4);
@@ -57,10 +49,8 @@ body {
     width: 90%;
     max-width: 1000px;
 }
-
 .container-home,
 .container-domande {
-
     text-align: center;
     padding: 30px;
     background: rgba(0, 0, 0, 0.4);
@@ -69,26 +59,21 @@ body {
     backdrop-filter: blur(4px);
     width: 90%;
     max-width: 1000px;
-
 }
-
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
-h3{
+h3 {
     font-size: 1.4em;
 }
-
 .quiz-select {
     margin: 20px 0;
 }
-
 label {
     font-size: 1.2em;
     cursor: pointer;
 }
-
 select {
     margin-top: 20px;
     width: 100%;
@@ -100,11 +85,9 @@ select {
     cursor: pointer;
     transition: border-color 0.3s;
 }
-
 select:hover {
     border-color: #007bff;
 }
-
 button {
     padding: 12px 20px;
     font-size: 1.2em;
@@ -116,17 +99,13 @@ button {
     transition: all 0.3s ease;
     margin: 10px;
 }
-
 button:hover {
     background: linear-gradient(135deg, #0072ff, #00c6ff);
     transform: scale(1.03);
 }
-
 button:active {
     transform: scale(0.95);
 }
-
-
 .box-bottoni,
 .container-domande div {
     display: flex;
@@ -135,9 +114,6 @@ button:active {
     gap: 15px;
     margin-top: 20px;
 }
-
-
-
 .opzione {
     margin-bottom: 10px;
     padding: 10px;
@@ -164,6 +140,7 @@ button:active {
 
     h1 {
         font-size: 2em;
+        text-align: center;
     }
 
     h2 {
@@ -185,8 +162,6 @@ button:active {
         margin-left: 0%
     }
 }
-
-
 
 .no-copy {
     user-select: none;
@@ -218,7 +193,6 @@ input[type="radio"] {
     border-radius: 50%;
     outline: none;
 }
-
 input[type="radio"]:checked {
     background-color: grey;
     transform: scale(1.2);
